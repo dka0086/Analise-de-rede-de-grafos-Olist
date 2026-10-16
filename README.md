@@ -39,6 +39,7 @@ O grafo principal não usa arestas direcionadas pois, arestas direcionadas seria
 - Pedidos cancelados ou indisponíveis
 
 ## Conteúdo do curso utilizado
+| conceito | semana | onde aparece | para que serviu |
 | tipos de grafo, atributos de nó e aresta | 6 | Olist_analise.ipynb, cél. 12 e 14 | modelar a rede como grafo não dirigido ponderado por Jaccard e Contagem |
 | densidade e esparsidade | 2 | Olist_analise.ipynb, cél. 18 e 22 | medir o quão ligada é a rede |
 | grau e distribuição de grau (histograma e CCDF) | 2 | Olist_analise.ipynb, cél. 18 e 20 | forma geral da rede e presença de hubs |
