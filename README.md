@@ -64,10 +64,9 @@ O grafo principal não usa arestas direcionadas pois, arestas direcionadas seria
 | esqueleto (backbone) por limiar de peso | 6 | Olist_analise.ipynb, cél. 43 | filtrar arestas fracas para visualizar e achar comunidades |
 
 ## Como executar
-1-Baixar o dataset:
-https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-2-Criar a pasta /data e colocar todas as planilhas .csv do dataset na pasta
-3-Clicar em "Executar tudo" e esperar baixar as dependências
+1. Baixar o dataset:https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce.
+2. Criar a pasta /data e colocar todas as planilhas .csv do dataset na pasta.
+3. Clicar em "Executar tudo" e esperar baixar as dependências.
 
 ## Resultados
 
