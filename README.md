@@ -74,5 +74,5 @@ O grafo principal não usa arestas direcionadas pois, arestas direcionadas seria
 ## Limitações e próximos passos
 
 ## Referências
-https://github.com/ivanovitchm/datastructure/tree/main
-The Atlas for the Aspiring Network Scientist: https://share.google/2B4XBybzJrTtSmwzs
+1. https://github.com/ivanovitchm/datastructure/tree/main.
+2. The Atlas for the Aspiring Network Scientist:https://share.google/2B4XBybzJrTtSmwzs.
