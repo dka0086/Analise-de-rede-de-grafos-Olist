@@ -1,7 +1,7 @@
 # Analise de rede de grafos Olist
 
 ## Integrantes:
-Getúlio Faria Segundo Petrus César · Nascimento Melo 
+Getúlio Faria Segundo · Petrus César Nascimento Melo 
 
 ## Vídeo
 https://youtu.be/... (até 15 min no total)
