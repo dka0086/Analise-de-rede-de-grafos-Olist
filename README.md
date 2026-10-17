@@ -67,7 +67,7 @@ O grafo principal não usa arestas direcionadas pois, arestas direcionadas seria
 3. Clicar em "Executar tudo" e esperar baixar as dependências.
 
 ## Resultados
-**A rede responde a pergunta?** A análise das métricas mostrou que diferentes categorias respondem a partes diferentes da pergunta. Os hubs, categorias com mais ligações, são móveis (furniture_decor), com grau 30, e artigos têxteis e de decoração para o lar (bed_bath_table), com grau 27, e são os que mais aparecem juntos com outras categorias. Mas a categoria que mais fica n caminho de outras é a `baby` com betweenness ponderado por Jaccard de 0,262, sendo o 7º maior grau. Ou seja, quem tem mais ligações não necessariamente conecta mais partes diferentes da rede.
+**A rede responde a pergunta?** A análise das métricas mostrou que diferentes categorias respondem a partes diferentes da pergunta. Os hubs, categorias com mais ligações, são móveis (`furniture_decor`), com grau 30, e artigos têxteis e de decoração para o lar (bed_bath_table`), com grau 27, e são os que mais aparecem juntos com outras categorias. Mas a categoria que mais fica n caminho de outras é a `baby` com betweenness ponderado por Jaccard de 0,262, sendo o 7º maior grau. Ou seja, quem tem mais ligações não necessariamente conecta mais partes diferentes da rede.
 
 **O que a modelagem mudou.** O uso de pesos nas arestas permitiu um estudo mais elaborado da rede possibilitando um ranqueamento mais sofisticado dos nós, a ponderação mais utilizada para o calculo das métrics foi por Jaccard, que faz ligações de afinidade forte encontrarem caminhos curtos. Por isso a betweenness ponderada aponta pontes (`baby`, `cool_stuff`) que a betweenness sem peso não destaca. 
 
