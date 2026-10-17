@@ -26,8 +26,6 @@ Baixar o dataset olist_customers_dataset.csv no Kaggle, descompactar e colocar o
 Para a modelagem serão utilizados duas redes, uma rede principal inicialmente bipartida de categorias x pedidos e uma rede complementar de vendedores × categorias.
 
 # Rede principal
-
-# Construção da Rede
 Devido ao numero alto de pedidos no dataset, rede principal vai utilizar pedidos com duas ou mais categorias, o que reduz os para 0.7% as categorias que serão trabalhadas. O processo de contrução da rede foi feito mudando de bipartida para uma rede de co-ocorrência usando a matriz de incidência (BᵀB). Forma utilizadas duas ponderações nas arestas, uma usando o indice de Jaccard e outra usando a contagem. A visualização e as comunidades usam o backbone G_bb, que mantém as arestas com Jaccard acima da mediana.
 
 O grafo principal não usa arestas direcionadas pois, arestas direcionadas seriam apropiadas para indicar pedidos em uma categoria, mas devido ao numero elevado de pedidos no dataset (112650) é mais apropiado utilizar os pedidos como peso das arestas construindo uma rede de co-ocorrencia.
