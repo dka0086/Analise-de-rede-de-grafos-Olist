@@ -32,8 +32,6 @@ Devido ao numero alto de pedidos no dataset, rede principal vai utilizar pedidos
 
 O grafo principal não usa arestas direcionadas pois, arestas direcionadas seriam apropiadas para indicar pedidos em uma categoria, mas devido ao numero elevado de pedidos no dataset (112650) é mais apropiado utilizar os pedidos como peso das arestas construindo uma rede de co-ocorrencia.
 
-# Rede Complementar
-
 ## O que ficou de fora
 - Pedidos com apenas uma categoria ou sem categoria
 - Pedidos cancelados ou indisponíveis
@@ -69,9 +67,14 @@ O grafo principal não usa arestas direcionadas pois, arestas direcionadas seria
 3. Clicar em "Executar tudo" e esperar baixar as dependências.
 
 ## Resultados
+**A rede responde a pergunta?** A análise das métricas mostrou que diferentes categorias respondem a partes diferentes da pergunta. Os hubs, categorias com mais ligações, são móveis (furniture_decor), com grau 30, e artigos têxteis e de decoração para o lar (bed_bath_table), com grau 27, e são os que mais aparecem juntos com outras categorias. Mas a categoria que mais fica n caminho de outras é a `baby` com betweenness ponderado por Jaccard de 0,262, sendo o 7º maior grau. Ou seja, quem tem mais ligações não necessariamente conecta mais partes diferentes da rede.
 
+**O que a modelagem mudou.** O uso de pesos nas arestas permitiu um estudo mais elaborado da rede possibilitando um ranqueamento mais sofisticado dos nós, a ponderação mais utilizada para o calculo das métrics foi por Jaccard, que faz ligações de afinidade forte encontrarem caminhos curtos. Por isso a betweenness ponderada aponta pontes (`baby`, `cool_stuff`) que a betweenness sem peso não destaca. 
+
+**Conclusão** A rede apontam quais categorias costumam ser compradas juntas e quais ligam grupos diferentes, o que ajuda a criar uma forma eficiente de cruzar as recomendações. 
 
 ## Limitações e próximos passos
+A rede usada tinha 0,7% dos pedidos (pedidos com mais de uma categoria).
 
 ## Referências
 1. https://github.com/ivanovitchm/datastructure/tree/main.
