@@ -40,7 +40,7 @@ O grafo principal não usa arestas direcionadas pois, arestas direcionadas seria
 | modelagem de rede | 2 | Olist_analise.ipynb, cél. 12 | criação da rede bipartida definindo nós e conexões |
 | ponderação de arestas | 6 | Olist_analise.ipynb, cél. 14 | ponderando arestas por contagem e jaccard |
 | grau e densidade | 2 | Olist_analise.ipynb, cél. 19 a 24 | medir grau e densidade e visualização usando distribuições |
-| componentes, clustering e caminhos | 4 | Olist_analise.ipynb, cél. 26 | medir clustering medio e camninho médio |
+| GCC, clustering e caminhos | 4 | Olist_analise.ipynb, cél. 26 | medir clustering medio e camninho médioda rede, e bucando GCC (Giant connected component) |
 | hubs, pontes e centralidades | 4 | Olist_analise.ipynb, cél. 28 e 29 | calculando betweenness e grau, e listando hubs e pontes em uma tabela |
 | k-core, core number, onion layers | 5 | Olist_analise.ipynb, cél. 36 | núcleo da rede |
 | artefato de clique | 6 | Olist_analise.ipynb, cél. 39 | encontando cliques presentes na rede e listando os nós que os compôe |
