@@ -4,7 +4,7 @@
 Getúlio Faria Segundo · Petrus César Nascimento Melo 
 
 ## Vídeo
-https://youtu.be/... (até 15 min no total)
+https://youtu.be/16SBalEZ6a0
 
 ## Problema e pergunta:
 O Olist é um e-commerce brasileiro com mais 100 mil pedidos no conjunto de dados público. A maior parte das compras traz itens de uma única categoria, mas alguns pedidos misturam categorias, e essas misturas dizem quais categorias costumam ser compradas juntas.
