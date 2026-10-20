@@ -37,27 +37,16 @@ O grafo principal não usa arestas direcionadas pois, arestas direcionadas seria
 ## Conteúdo do curso utilizado
 | Conceito | Semana | Onde aparece | Para que serviu |
 | :--- | :---: | :--- | :--- |
-| tipos de grafo, atributos de nó e aresta | 6 | Olist_analise.ipynb, cél. 12 e 14 | modelar a rede como grafo não dirigido ponderado por Jaccard e Contagem |
-| densidade e esparsidade | 2 | Olist_analise.ipynb, cél. 18 e 22 | medir o quão ligada é a rede |
-| grau e distribuição de grau (histograma e CCDF) | 2 | Olist_analise.ipynb, cél. 18 e 20 | forma geral da rede e presença de hubs |
-| matriz de adjacência (simetria) | 2 | Olist_analise.ipynb, cél. 18 e 22 | representação da rede e confirmação de que é não dirigida |
-| componentes (WCC = SCC, pois é não dirigida) | 4 | Olist_analise.ipynb, cél. 24 | verificar fragmentação |
-| clustering local e global (transitividade) | 4 | Olist_analise.ipynb, cél. 24 e 35 | coesão local |
-| caminho médio, diâmetro, eficiência | 4 | Olist_analise.ipynb, cél. 24 | proximidade global |
-| centro e periferia (excentricidade, raio) | 3 e 4 | Olist_analise.ipynb, cél. 31 | posição geométrica das categorias |
-| closeness | 4 | Olist_analise.ipynb, cél. 34 | quem está mais próximo de todos |
-| betweenness (sem peso e ponderada por Jaccard e contagem) | 4 | Olist_analise.ipynb, cél. 26, 27 e 33 | categorias-ponte |
-| eigenvector | 4 | Olist_analise.ipynb, cél. 26 e 34 | importância por vizinhos |
-| hubs e pontes (corte no percentil 90) | 4 | Olist_analise.ipynb, cél. 33 | separar hubs de pontes |
-| visualização com nxviz (circos, arc) | 4 | Olist_analise.ipynb, cél. 49 e 50 | enxergar comunidades, hubs e pontes |
-| k-core, core number, onion layers | 5 | Olist_analise.ipynb, cél. 37 | núcleo da rede |
-| exportação para o Gephi e modularidade (usada para agrupar categorias) | 5 | Olist_analise.ipynb, cél. 46 e figuras/ | grupos de consumo e figura final |
-| rede bipartida e projeção | 6 | Olist_analise.ipynb, cél. 12 e 14 | transformar pedidos × categorias em rede de categorias |
-| matriz de incidência (BᵀB) | 6 | Olist_analise.ipynb, cél. 14 | calcular a projeção de forma eficiente |
-| co-ocorrência | 6 | Olist_analise.ipynb, cél. 14 | definir arestas e peso por contagem |
-| índice de Jaccard | 6 | Olist_analise.ipynb, cél. 14 | reduzir o viés de popularidade nos pesos |
-| artefato de clique | 6 | Olist_analise.ipynb, cél. 40 | checar se pedidos grandes inflam a rede |
-| esqueleto (backbone) por limiar de peso | 6 | Olist_analise.ipynb, cél. 43 | filtrar arestas fracas para visualizar e achar comunidades |
+| modelagem de rede | 2 | Olist_analise.ipynb, cél. 12 | criação da rede bipartida definindo nós e conexões |
+| ponderação de arestas | 6 | Olist_analise.ipynb, cél. 14 | ponderando arestas por contagem e jaccard |
+| grau e densidade | 2 | Olist_analise.ipynb, cél. 19 a 24 | medir grau e densidade e visualização usando distribuições |
+| componentes, clustering e caminhos | 4 | Olist_analise.ipynb, cél. 26 | medir clustering medio e camninho médio |
+| hubs, pontes e centralidades | 4 | Olist_analise.ipynb, cél. 28 e 29 | calculando betweenness e grau, e listando hubs e pontes em uma tabela |
+| k-core, core number, onion layers | 5 | Olist_analise.ipynb, cél. 36 | núcleo da rede |
+| artefato de clique | 6 | Olist_analise.ipynb, cél. 39 | encontando cliques presentes na rede e listando os nós que os compôe |
+| backbone por limiar de peso | 6 | Olist_analise.ipynb, cél. 41 | backbone utilizando uma ponderação de corte |
+| visaulização arc plot e circus plot | 4 | Olist_analise.ipynb, cél. 44 e 45 | visualização usando circus plot e arc plot |
+
 
 ## Como executar
 1. Baixar o dataset:https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce.
